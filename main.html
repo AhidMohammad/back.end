@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Back-end Development</title>
+
+    <style>
+      .button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      body
+      {
+        background-color: rgb(192, 190, 190);
+      }
+      .button {
+        padding: 10px 20px;
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #000000;
+        color: #000000;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+      }
+
+      h1
+      {
+        color: rgb(0, 0, 0);
+      }
+      h3
+      {
+        color: rgb(0, 0, 0);
+      }
+
+      @media only screen and (max-width: 600px) {
+        .button-container {
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+   
+    <!-- Button section start to store the data -->
+    <section>
+      <div class="button-container">
+        <div class="container" align="center">
+          <h1 style="font-size: 40px">Back-end Development</h1>
+        </div>
+        <h1>Welcome to my DataBase</h1>
+        <h3>Choose the DataBase to store the data</h3>
+        <button class="button">
+          <a href="form1.php">Classes</a>
+        </button>
+        <button class="button">
+          <a href="form2.php">Pupils</a>
+        </button>
+        <button class="button">
+          <a href="form3.php">Parents/Guardians</a>
+        </button>
+        <button class="button">
+          <a href="form4.php">Teachers</a>
+        </button>
+      </div>
+    </section>
+    <!-- Button section start to store the data -->
+
+
+  </body>
+</html>
